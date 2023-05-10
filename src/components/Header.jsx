@@ -11,7 +11,7 @@ const Header = () => {
     <div>
            <Navbar bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand><Link to={'/'}>A&B</Link></Navbar.Brand>
+        <Navbar.Brand><Link to={'/'}> SUNTOUR </Link></Navbar.Brand>
           <Nav className="me-auto">
             
             <Nav.Link>

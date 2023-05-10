@@ -6,10 +6,10 @@ import { Button } from 'react-bootstrap';
 const Slider = () => {
   return (
 <Carousel>
-      <Carousel.Item interval={1000}>
-        <img width={420} height={800}
+      <Carousel.Item interval={2000}>
+        <img height={800}
           className="d-block w-100"
-          src="./img/first.jpg"
+          src="./img/i (2).webp"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -20,20 +20,20 @@ const Slider = () => {
 
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <img width={420} height={800}
+      <Carousel.Item interval={2000}>
+        <img height={800}
           className="d-block w-100"
-          src="./img/second.jpg"
+          src="./img/i.webp"
           alt="Second slide"
         />
         <Carousel.Caption>
           
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img width={420} height={800} 
+      <Carousel.Item interval={2000}>
+        <img height={800} 
           className="d-block w-100"
-          src="./img/three.jpg"
+          src="./img/i-97-13.jpeg"
           alt="Third slide"
         />
         <Carousel.Caption>

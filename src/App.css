@@ -88,3 +88,14 @@ a:hover{
   #but:hover{
     background-color: rgb(68, 223, 223);
   }
+  .navbar-brand a {
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    padding-right: 150px;
+
+  }
+  .nav-link a{
+    padding-right: 100px;
+
+  }

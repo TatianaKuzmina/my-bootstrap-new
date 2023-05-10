@@ -32,7 +32,7 @@ const Item = (props) => {
              </button>
               
                         <p>{props.title}</p>
-                        <img className='rounded' src={props.img} width={'85%'}></img>
+                        <img className='rounded' src={props.img} width={'50%'}></img>
                         <p>{props.description}</p>
                         <p>{props.price}</p>
                         <div>

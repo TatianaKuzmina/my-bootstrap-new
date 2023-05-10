@@ -24,7 +24,7 @@ const [favorites, setFavorites] = useState([])
 const [overlayItems, setOverlayItems] = useState([])
 useEffect (()=>{
   async function axiosData(){
-    const tyrsData = await axios.get('https://637f91ca2f8f56e28e904e7d.mockapi.io/tyrs')
+    const tyrsData = await axios.get('https://6421ac6134d6cd4ebd793b1a.mockapi.io/tyrs')
     const favoritesData = await axios.get('https://637f91ca2f8f56e28e904e7d.mockapi.io/favorites')
     const cartData = await axios.get('https://637f91ca2f8f56e28e904e7d.mockapi.io/cart')
 
